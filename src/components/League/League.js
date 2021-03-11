@@ -21,8 +21,8 @@ const League = (props) => {
     },[idLeague])
     
     return (
-
-        <div className="league col-sm-12 col-md-5 col-lg-3  ">
+   
+        <div className="league ">
             <div className="leagueStyle  ">
             <img src={leagueBadge.strBadge} alt=""/>
             <h4>{strLeague}</h4>

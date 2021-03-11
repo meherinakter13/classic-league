@@ -15,9 +15,14 @@ const Home = () => {
        
         <div style={{backgroundColor:'rgb(3, 3, 61)'}}className="fluid-container">
             <Header></Header>
-            {
+            <div className="row m-0">
+                {
+                    allLeagues.map(league=> <div className="col-lg-4  col-md-6 col-sm-12"><League league={league}></League></div>)
+                }
+            </div>
+            {/* {
                 allLeagues.map(league =><League league={league}></League>)
-            }
+            } */}
 
         </div>
     );
