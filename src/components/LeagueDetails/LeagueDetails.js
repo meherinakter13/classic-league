@@ -20,13 +20,13 @@ const LeagueDetails = () => {
 
     let leagueImage;
     if("Male" === strGender){
-        leagueImage = <img src={Male}></img>
+        leagueImage = <img src={Male} alt=""></img>
     }
     else if("Female"  === strGender){
-        leagueImage = <img src={Female}></img>
+        leagueImage = <img src={Female} alt=""></img>
     }
     else if("Mixed"  === strGender){
-        leagueImage = <img src={Female}></img>
+        leagueImage = <img src={Female}alt=""></img>
     }
     const banner={
         backgroundRepeat:"noRepeat",
@@ -60,9 +60,9 @@ const LeagueDetails = () => {
                         <p>{strDescriptionEN}</p>
                         {/* <p>{leagueDetail.strDescriptionFR}</p> */}
                         <div className="icons">
-                        <a href={`https://${strTwitter}`}target="_blank"><FontAwesomeIcon className="icons fa-3x  text-info bg-white rounded-circle p-2" icon={ faTwitter} /></a>
-                        <a href={`https://${strFacebook}`}target="_blank"><FontAwesomeIcon className="icons fa-3x  text-primary bg-white rounded-circle p-2" icon={ faFacebook} /></a>
-                        <a href={`https://${strYoutube}`}target="_blank"><FontAwesomeIcon className="icons fa-3x  text-danger bg-white rounded-circle p-2" icon={ faYoutube} /></a>
+                        <a href={`https://${strTwitter}`}target="_blank/"><FontAwesomeIcon className="icons fa-3x  text-info bg-white rounded-circle p-2" icon={ faTwitter} /></a>
+                        <a href={`https://${strFacebook}`}target="_blank/"><FontAwesomeIcon className="icons fa-3x  text-primary bg-white rounded-circle p-2" icon={ faFacebook} /></a>
+                        <a href={`https://${strYoutube}`}target="_blank/"><FontAwesomeIcon className="icons fa-3x  text-danger bg-white rounded-circle p-2" icon={ faYoutube} /></a>
                         </div>   
                     </div>
                 </div> 
