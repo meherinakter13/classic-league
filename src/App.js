@@ -2,14 +2,14 @@ import './App.css';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
+  Route
 } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './components/Home/Home';
 import League from './components/League/League';
 import LeagueDetails from './components/LeagueDetails/LeagueDetails';
 import NoMatch from './components/NoMatch/NoMatch';
-import Header from './components/Header/Header';
+
 
 
 function App() {
